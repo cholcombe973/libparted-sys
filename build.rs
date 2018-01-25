@@ -5,6 +5,7 @@ use std::path::PathBuf;
 
 fn main() {
     println!("cargo:rustc-link-lib=parted");
+    println!("cargo:rustc-link-lib=parted-fs-resize");
 
     let bindings = bindgen::Builder::default()
     .header("wrapper.h")
