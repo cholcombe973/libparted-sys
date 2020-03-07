@@ -1,6 +1,6 @@
 [package]
 name = "libparted-sys"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Chris Holcombe <xfactor973@gmail.com>"]
 license = "MIT"
 description = "libparted bindings"
@@ -10,7 +10,7 @@ keywords = ["parted", "libparted"]
 
 
 [build-dependencies]
-bindgen = "~0.30"
+bindgen = "~0.53"
 
 [dependencies]
 
