@@ -10,7 +10,7 @@ keywords = ["parted", "libparted"]
 
 
 [build-dependencies]
-bindgen = "~0.58"
+bindgen = "~0.65"
 
 [dependencies]
 
